@@ -2,7 +2,7 @@
  <head>
   <meta charset="utf-8" />
   <meta name="description" content="BT导航 - 我们致力于提供一切BT相关的导航服务" />
-  <meta name="keywords" content="Sync Key导航网,btsync 资源,bt资源,电影资源，bt,导航,BT网站导航,bittorrentsync,btsync,sync,resilio " />
+  <meta name="keywords" content="Sync Key导航网,btsync 资源,bt资源,电影资源，bt,导航,BT网站导航,bittorrentsync,btsync,sync,resilio,BT磁力,磁力 " />
   <meta name="description" content="bt资源,电影资源，bt,导航,BT网站导航,Sync Key导航网">  
   <meta name="author" content="BT导航网" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -29,7 +29,7 @@
     <div class="row">
      <div class="col-xs-12">
       <h1>WHERE BT</h1>
-      <p>提供各种BT资源导航<br /><span class="package-amount">共收录了 <strong>7</strong> btsync key分享网站</span></p>
+      <p>提供各种BT资源导航<br /><span class="package-amount">共收录了 <strong>6</strong>个btsync key分享网站,<strong>6</strong>个BT磁力搜索网站</span></p>
       <form class="" role="search"  style="display:none">
        <div class="form-group">
         <input class="form-control search clearable" placeholder="搜索开源key，例如：电子书" type="text" /> 
@@ -41,23 +41,24 @@
    </div>
   </header>
 
-  <div class="container protocal-notice" style="display:none">
+  <div class="container protocal-notice" >
    <div class="row">
     <div class="col-xs-12 hidden-xs">
      <form class="form-inline pull-right">
-      <label>选择协议：</label>
+      <label>选择类型：</label>
       <div class="btn-group" data-toggle="buttons">
-       <label class="btn btn-default active"><input name="options" id="relative" checked="" type="radio" />KEY</label>
-       <label class="btn btn-default"><input name="options" id="http" type="radio" />磁力</label>
-       <label class="btn btn-default"><input name="options" id="https" type="radio" />torrent</label>
+       <label id="key" class="btn btn-default active"><input name="options"  checked="" type="radio" />KEY</label>
+       <label id="torrent" class="btn btn-default"><input name="options"  type="radio" />磁力</label>
       </div>
-      <span class="help-block"><a href="http://blog.bootcdn.cn/bootcdn-support-https/" target="_blank" >了解详情 <i class="fa fa-info-circle"></i></a></span>
+      <span class="help-block"><a href="blog/2017/blog0323.html" target="_blank" >了解详情 <i class="fa fa-info-circle"></i></a></span>
      </form>
     </div>
    </div>
   </div>
+  
   <main class="packages-list-container" id="all-packages">
-   <div class="container">
+  
+   <div class="container" id="key_list">
     <div class="list-group packages">
 
     <a href="http://btsync.space/" class="package list-group-item" target="_blank" >
@@ -116,20 +117,6 @@
        </div>
       </div>
     </a>
-
-     <a href="https://syncfan.com/" class="package list-group-item" target="_blank" >
-      <div class="row">
-       <div class="col-md-3">
-        <h4 class="package-name">同步范</h4>
-       </div>
-       <div class="col-md-9 hidden-xs">
-        <p class="package-description">传说中神Key的分享网站，一般最新的电影什么的都会在这里</p>
-       </div>
-	    <div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
-        <span><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
-       </div>
-      </div>
-	  </a>
 	 
     <a href="http://notepad.live/share/802e1fkeys" class="package list-group-item" target="_blank" >
       <div class="row">
@@ -161,7 +148,100 @@
 
     </div>
    </div>
+   
+    <div class="container"  id="torrent_list"  style="display:none">
+    <div class="list-group packages">
+
+    <a href="http://btnova.org/" class="package list-group-item" target="_blank" >
+      <div class="row">
+       <div class="col-md-3">
+        <h4 class="package-name">btnova</h4>
+       </div>
+       <div class="col-md-9 hidden-xs">
+        <p class="package-description">资源比较丰富，有少量的广告,广告可忽略</p>
+       </div>
+      <div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+        <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+       </div>
+      </div>
+    </a>
+
+     <a href="http://sou.mj0351.com" class="package list-group-item" target="_blank" >
+      <div class="row">
+       <div class="col-md-3">
+        <h4 class="package-name">梦境搜索</h4>
+       </div>
+       <div class="col-md-9 hidden-xs">
+        <p class="package-description">无广告 牛逼，资源略少</p>
+       </div>
+       <div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+        <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </span>
+       </div>
+      </div>
+	  </a>
+     
+    <a href="http://www.btkiki.com/" class="package list-group-item" target="_blank" >
+      <div class="row">
+       <div class="col-md-3">
+        <h4 class="package-name">btkiki</h4>
+       </div>
+       <div class="col-md-9 hidden-xs">
+        <p class="package-description">资源比较丰富，有广告可以忍的那种</p>
+       </div>
+      <div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+        <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+       </div>
+      </div>
+    </a>
+   
+	 <a href="http://bthub.io/" class="package list-group-item" target="_blank" >
+      <div class="row">
+       <div class="col-md-3">
+        <h4 class="package-name">bthub</h4>
+       </div>
+       <div class="col-md-9 hidden-xs">
+        <p class="package-description">良心之作，使用稍有门槛，需要右键复制磁力地址</p>
+       </div>
+	    <div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+        <span><i class="fa fa-star"></i></span>
+       </div>
+      </div>
+	  </a>
+	  
+	 <a href="http://thepiratebay.ee/" class="package list-group-item" target="_blank" >
+      <div class="row">
+       <div class="col-md-3">
+        <h4 class="package-name">海盗湾</h4>
+       </div>
+       <div class="col-md-9 hidden-xs">
+        <p class="package-description">资源非常丰富，但是界面为英文</p>
+       </div>
+	    <div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+        <span><i class="fa fa-star"></i></span>
+       </div>
+      </div>
+	  </a>
+	  
+	  <a href="http://www.zhongzidi.com/" class="package list-group-item" target="_blank" >
+      <div class="row">
+       <div class="col-md-3">
+        <h4 class="package-name">种子帝</h4>
+       </div>
+       <div class="col-md-9 hidden-xs">
+        <p class="package-description">资源还可以，广告很变态弹框的那种；发现好的替换掉</p>
+       </div>
+	    <div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
+        <span><i class="fa fa-star"></i></span>
+       </div>
+      </div>
+	  </a>
+
+    </div>
+   </div>
+   
   </main>
+  
+  
   <footer id="footer" class="footer hidden-print">
    <div class="container">
     <div class="row">
@@ -192,6 +272,21 @@
 <div style="display:none">
 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260936853'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1260936853' type='text/javascript'%3E%3C/script%3E"));</script>
 </div>
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript">
+	$(function(){
+	$("#key").click(function(){
+		$("#key_list").show();
+		$("#torrent_list").hide();
+	});
+	
+	$("#torrent").click(function(){
+		$("#torrent_list").show();
+		$("#key_list").hide();
+	});
 
+	});
+
+  </script>
  </body>
 </html>
