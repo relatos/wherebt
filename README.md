@@ -1,3 +1,3 @@
-#WHERE BT 
+# WHERE BT 
 
-###[View website &rarr;](http://www.wherebt.com)
+### [View website &rarr;](http://www.wherebt.com)
